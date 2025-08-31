@@ -1,0 +1,165 @@
+.logo{
+    display: block;
+    margin: auto;
+}
+
+.menu{
+    background-color: #51cb20;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    font-size: 30px;
+    text-align: center;
+
+    a{
+        text-decoration: none;
+        color: #001249;
+        font-family: 'Nunito';
+        font-weight: 600;
+        font-size: 20PX;
+        line-height: 35px;
+    }
+}
+
+@media (max-width:800px){
+    .menu{
+        flex-direction: column;
+    }
+}
+
+.container{
+    position: relative;
+    font-family: 'Nunito';
+    font-size: 50px;
+    color:#001249 ;
+
+    img{
+    max-width:100%;
+    height: auto;
+    }
+
+    button{
+        background-color: #51cb20;
+        font-family: 'Nunito';
+        color: #001249;
+        border-radius: 20PX;
+        border: none;
+        font-size: 35px;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    button:hover{
+        background-color: #001249;
+        color: #51cb20;
+    }
+
+    @media screen and (max-width:1200px){
+        button{
+            font-size: 15px;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .topright{
+            top: 40px;
+            right:50px;
+            font-size: 25px;
+        }
+    }
+
+       @media screen and (max-width: 650px){
+        button{
+            font-size: 15px;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .topright{
+            top: 30px;
+            right:30px;
+            font-size: 15px;
+        }
+    }
+}
+
+.topright{
+    position: absolute;
+    top: 80px;
+    right:50px;
+    font-size: 50px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+    i{
+        color:#001249;
+        font-size: 50px;
+        padding-right: 40px;
+        padding-top: 30px;
+
+    }
+
+    p{
+        font-family: 'Nunito';
+        color: #001249;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+}
+
+
+.sfondo_pagina{
+    background: url(/GreenEarth/assets/img/Sfondo\ pagine\ sfuocato.png) no-repeat center center fixed; 
+	background-size: cover;
+}
+
+.progetti{
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+
+    h1{
+        font-family: 'Nunito';
+        color: #001249;
+    }
+
+    p{
+        font-family: 'Nunito';
+        color: #001249;
+    }
+}
+
+.img_progetti{
+    width: 300px;
+    height: 300px;
+    display: inline;
+
+}
+
+.titolo_progetti{
+    display: inline;
+}
+
+.font{
+        font-family: 'Nunito';
+        color: #001249;
+    }
+
+.form{
+        font-family: 'Nunito';
+        color: #001249;
+    
+    
+}
